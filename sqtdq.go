@@ -63,6 +63,6 @@ func SqtDq(data string) string {
 
 func TurnToSlice(data string) []string {
 	dat := SqtDq(data)
-	res := strings.Split(dat, ",")
+	res := strings.Split(dat, " ,")
 	return res
 }
